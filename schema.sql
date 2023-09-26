@@ -9,4 +9,8 @@ CREATE TABLE animals (
   weight_kg decimal
 );
 
+-- Run this SQL statement to add the 'species' column to the 'animals' table
+ALTER TABLE animals
+ADD COLUMN species varchar(100);
+
 
