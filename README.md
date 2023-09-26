@@ -31,25 +31,15 @@ Welcome to the Vet Clinic Management System! This project helps veterinarians an
 # 📖 [Vet Clinic] <a name="about-project"></a>
 
 **[Vet Clinic]** This project is designed to streamline the operations of a veterinary clinic. It provides a user-friendly interface for veterinarians and staff to manage patient information, schedule appointments, and maintain medical records. The project is built using Ruby and SQL, making it easy to customize and extend to suit the specific needs of your clinic.
+ It includes:
+- Animals
+- Animals' owners
+- Clinic employees
+- Visits
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- SQL 
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -67,14 +57,6 @@ Welcome to the Vet Clinic Management System! This project helps veterinarians an
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -85,49 +67,29 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```sh
- gem install rails
-```
+- Laptop
+- Internet
+- Github
+- Command Line
+
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
+  cd vet-clinic
   git clone https://github.com/Kaiserabbas/vet-clinic
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
 ```sh
-  cd my-project
-  gem install
+  Install PostgreSQL
 ```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
+  [https://www.postgresql.org/download/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,35 +123,33 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, Kindly add some stars for this repository.
+If you like this project, Kindly add some stars⭐️ for this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse. This credit serves as a tribute to Microverse's vision, mission, and unwavering commitment to excellence in education and technology.
-
+I would like to thank Microverse. This credit serves as a tribute to Microverse's vision, mission, and unwavering commitment to excellence in education and technology.
 Thank you, Microverse, for your outstanding contributions to the world of software development.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **[Question_1]**
+- **[Question]**
     How do I configure the database connection settings?
-  - [Answer_1]
+  - [Answer]
     You can configure the database connection settings in the config/database.yml file. Update the username, password, host, and database fields with your database information.
-- **[Question_2]**
+- **[Question]**
      Can I add custom features or modules to this system to suit my clinic's unique needs?
-  - [Answer_2]
-    Yes, you can extend this system to add custom features or modules. The code is written in Ruby, making it relatively easy to modify and enhance. You can add new functionalities by creating additional Ruby classes and integrating them into the system's existing structure. Feel free to customize it to match your clinic's specific requirements.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  - [Answer]
+    Yes, you can extend this system to add custom features or modules. Feel free to customize it to match your clinic's specific requirements.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
