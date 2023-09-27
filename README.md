@@ -149,7 +149,7 @@ Thank you, Microverse, for your outstanding contributions to the world of softwa
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
