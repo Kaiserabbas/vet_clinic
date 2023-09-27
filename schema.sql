@@ -49,6 +49,14 @@ ALTER TABLE animals
 ADD COLUMN owner_id INTEGER REFERENCES owners(id);
 
 
+-- Create a Table called vets.
+CREATE TABLE vets (
+    id serial PRIMARY KEY,
+    name varchar(255),
+    age integer,
+    date_of_graduation date
+);
+
 -- Create a "join table" called specializations to handle the many-to-many relationship
 CREATE TABLE specializations (
     vet_id INT,
