@@ -76,3 +76,22 @@ CREATE TABLE visits (
     FOREIGN KEY (vet_id) REFERENCES vets (id),
     FOREIGN KEY (animal_id) REFERENCES animals (id)
 );
+
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+
+-- Optimizing the Query for SELECT COUNT(*) FROM visits WHERE animal_id = 4;:
+-- To improve the execution time for this query, you can create an index on the animal_id column in the visits table. Indexing can significantly speed up filtering operations.
+CREATE INDEX idx_animal_id ON visits(animal_id);
+
+
+-- Optimizing the Query for SELECT * FROM visits WHERE vet_id = 2;:
+-- Similar to the previous query, you can create an index on the vet_id column in the visits table to speed up the filtering operation:
+CREATE INDEX idx_vet_id ON visits(vet_id);
+
+
+-- Optimizing the Query for SELECT * FROM owners WHERE email = 'owner_18327@mail.com';:
+-- The performance of this query is likely impacted by the large number of rows in the owners table. If you frequently need to search by email, you can create an index on the email column:
+CREATE INDEX idx_email ON owners(email);
