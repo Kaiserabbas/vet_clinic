@@ -19,7 +19,7 @@ VALUES ('Devimon', '2017-05-12', 11, true, 5);
 
 -- Adding new animals after the addition os species column
 INSERT INTO animals (name, date_of_birth, weight_kg, neutered, escape_attempts, species) VALUES
-('Charmander', '2020-02-08', -11, false, 0'),
+('Charmander', '2020-02-08', -11, false, 0),
 ('Plantmon', '2021-11-15', -5.7, true, 2),
 ('Squirtle', '1993-04-02', -12.13, false, 3),
 ('Angemon', '2005-06-12', -45, true, 1),
